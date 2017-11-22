@@ -1,0 +1,79 @@
+{
+  "_from": "activetick",
+  "_id": "activetick@1.1.7",
+  "_inBundle": false,
+  "_integrity": "sha1-Ifss8qZIprMQ1/mqIhJZ4bxdFZk=",
+  "_location": "/activetick",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "activetick",
+    "name": "activetick",
+    "escapedName": "activetick",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/activetick/-/activetick-1.1.7.tgz",
+  "_shasum": "21fb2cf2a648a6b310d7f9aa221259e1bc5d1599",
+  "_spec": "activetick",
+  "_where": "/opt/inte-data-api",
+  "author": {
+    "name": "Jae Yang",
+    "email": "jaey226@gmail.com"
+  },
+  "bugs": {
+    "url": "https://gitlord.com/tickets/~dchem%2Fnode-activetick-addon.git?status=new&status=open"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^0.9.0",
+    "limiter": "^1.0.5"
+  },
+  "deprecated": false,
+  "description": "Activetick API addon for NodeJS ",
+  "directories": {
+    "test": "test"
+  },
+  "gypfile": true,
+  "homepage": "https://gitlord.com/summary/~dchem%2Fnode-activetick-addon.git",
+  "keywords": [
+    "activetick",
+    "finance",
+    "stock",
+    "bond",
+    "option",
+    "forex",
+    "future",
+    "ticker",
+    "symbol",
+    "quote",
+    "market",
+    "data",
+    "automated",
+    "invest",
+    "trade",
+    "trading",
+    "system",
+    "api",
+    "client",
+    "library"
+  ],
+  "license": "MIT",
+  "main": "activetick.js",
+  "name": "activetick",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlord.com/r/~dchem/node-activetick-addon.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "preinstall": "sh preinstall.sh"
+  },
+  "version": "1.1.7"
+}
