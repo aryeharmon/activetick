@@ -11,7 +11,7 @@ cp -r $IMPATK $DIR
 cd $DIR
 rm -rf libjson
 
-git clone https://gitlord.com/r/libjson.git
+git clone https://github.com/aryeharmon/libjson.git
 
 if [ "$(uname)" = "Darwin" ]; then
 sed -ie 's@#define JSON_LIBRARY@//#define JSON_LIBRARY@g' ./libjson/JSONOptions.h
