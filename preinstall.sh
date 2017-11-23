@@ -1,5 +1,5 @@
 DIR="./import"
-IMPATK="../../../atfeed-cppsdk"
+IMPATK="/opt/atfeed-cppsdk"
 rm -rf ./import
 if [ ! -d "$DIR" ]
 then
